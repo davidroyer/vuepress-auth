@@ -4,9 +4,8 @@ import Vue from 'vue'
 
 console.log('FROM NEW AUTH');
 
-
 export const auth = new GoTrue({
-  APIUrl: 'https://nuxt-identity-demo.netlify.com/.netlify/identity',
+  APIUrl: 'https://vuepress-auth.netlify.com/.netlify/identity',
   audience: '',
   setCookie: true
 })
